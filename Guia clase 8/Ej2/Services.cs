@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Guia_clase_8
 {
-    interface Servicios
+    interface Services
     {
         void Baja();
     }
-    class CuentaCorriente : Servicios
+    class CuentaCorriente : Services
     {
         public double cantidad;
 
@@ -34,7 +34,7 @@ namespace Guia_clase_8
             Console.WriteLine("Se cancela el servicio, por favor retire su dinero");
         }
     }
-    class CajaAhorro : Servicios
+    class CajaAhorro : Services
     {
         public double cantidad;
 
@@ -58,7 +58,7 @@ namespace Guia_clase_8
             Console.WriteLine("Se cancela el servicio, por favor retire su dinero");
         }
     }
-    class SeguroDeVida : Servicios
+    class SeguroDeVida : Services
     {
         public int valorSeguro;
         public int pagoMensual;
@@ -77,7 +77,7 @@ namespace Guia_clase_8
             Console.WriteLine("Se cancela el servicio");
         }
     }
-    class SeguroDeHogar : Servicios
+    class SeguroDeHogar : Services
     {
         public int valorSeguro;
         public int pagoMensual;

@@ -43,12 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConectionFactory.cs" />
-    <Compile Include="Ej2\Banco.cs" />
+    <Compile Include="Ej3\ConectionFactory.cs" />
+    <Compile Include="Ej2\Bank.cs" />
     <Compile Include="Ej1\CountryList.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Ej2\Servicios.cs" />
+    <Compile Include="Ej2\Services.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

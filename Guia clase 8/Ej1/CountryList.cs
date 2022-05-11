@@ -11,14 +11,7 @@ namespace Guia_clase_8
         private static CountryList instance;
         private string[] countryName;
         private static int counter;
-        
 
-
-        private CountryList(string name)
-        {
-            countryName[counter] = name;
-            counter++;
-        }
         private CountryList()
         {
         }
